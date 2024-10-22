@@ -137,3 +137,13 @@ if __name__ == "__main__":
     hash_container.set_hash_function(custom_hash)
     hash_container.add_element(42, 420)
     print(f"Value for key 42 with custom hash: {hash_container.find_element(42)}")
+
+    
+## output
+Value for key 5: 50
+Value for key 15: 150
+Value for key 25: 250
+Value for key 15 after removal: None
+Final element count: 102
+Final bucket count: 128
+Value for key 42 with custom hash: 420
